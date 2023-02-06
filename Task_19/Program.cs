@@ -20,6 +20,6 @@ int x =0  ;
 x = x + s % 10;
 x = x * 10 + s / 10; 
 System.Console.WriteLine($"{x} , {y}");
-if ( x == y) System.Console.WriteLine($" Number {n} is a palindrime");
+if ( x == y) System.Console.WriteLine($" Number {n} is a palindrome");
 if ( x!=y) System.Console.WriteLine($" Number {n} is not a palindrome");
 
